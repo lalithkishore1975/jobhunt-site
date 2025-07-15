@@ -21,7 +21,7 @@ app.use(cookieParser());
 
 // Removed duplicate express and cors require statements and app initialization
 
-const whitelist = [process.env.FRONTEND_URL];
+const whitelist = [process.env.frontend_URL];
 console.log("Whitelist:", whitelist);
 const corsOptions = {
   origin: function (origin, callback) {
